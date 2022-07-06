@@ -1,0 +1,19 @@
+.presentation-container
+    height: 400px
+    display: grid
+    grid-template-columns: repeat(2, 1fr)
+    column-gap: 2rem
+    presentation__content 
+        display: flex 
+        flex-direction: column
+        row-gap: 1rem   
+    
+
+@media (max-width: 1024px) 
+    .presentation-container 
+        padding: 0 2rem
+        
+        display: flex
+        flex-direction: column
+        row-gap: 2rem
+    
